@@ -1,0 +1,148 @@
+[
+  {
+      "id": 1,
+      "title": "Abbaye de Cîteaux",
+      "description": "Mon stage s'est déroulé à l'Abbaye de Cîteaux du 2 avril au 7 juillet 2024, dans le cadre de ma troisième année de BUT Métiers du Multimédia et de l'Internet (MMI). Ma mission principale était la refonte complète du site web de l'abbaye, un projet qui impliquait à la fois la conception, le développement et l'intégration de nouvelles fonctionnalités en utilisant des outils et technologies modernes.",
+      "AC": [
+          {
+              "code": "AC34.04",
+              "description": "Concevoir et développer des composants logiciels, plugins ou extensions",
+              "justification": "Développement et personnalisation de plugins pour WordPress, comme la personnalisation de Popup Maker et Yoast SEO."
+          },
+          {
+              "code": "AC34.01",
+              "description": "Développer à l’aide d’un framework de développement côté client",
+              "justification": "Utilisation de technologies comme CSS, JavaScript pour améliorer l'interface utilisateur et rendre le site responsive."
+          },
+          {
+            "code": "AC34.02",
+            "description": "Développer à l’aide d’un framework de développement côté serveur",
+            "justification": "Utilisation de WordPress (qui est un CMS basé sur PHP) pour gérer le backend du site, ainsi que le développement de fonctionnalités personnalisées en PHP."
+        }
+      ],
+      "Situation": "",
+      "tache": [" Refonte de l'architecture de l'information, conception de la maquette, développement et intégration des nouvelles pages et fonctionnalités.","Personnalisation de plugins existants (Popup Maker, Yoast SEO, etc.) pour répondre aux besoins spécifiques de l'abbaye."],
+      "auto-eval": "Mon stage m'a permis de renforcer mes compétences en développement web, notamment en PHP et WordPress, tout en développant des solutions sur mesure pour répondre aux besoins spécifiques de l'Abbaye de Cîteaux. J'ai amélioré ma capacité à gérer un projet de manière autonome, de la conception à l'optimisation.",
+      "images": [
+          "./img/logo.png",
+            "./img/Accueil.png",
+            "./img/Histoire.png",
+            "./img/Communaute.png",
+            "./img/Sejour.png",
+            "./img/Offices.png",
+            "./img/Acces-&-contact.png",
+            "./img/Visite.png",
+            "./img/Boutique.png",
+            "./img/tab-wordpress.png",
+            "./img/function-php.png"
+
+
+      ]
+  },
+  {
+      "id": 2,
+      "title": "Projet style musical",
+      "description": "Pour ce projet, nous avons dû choisir un thème commun pour nos futurs travaux, et le thème de la musique a été sélectionné. Nous étions deux à travailler sur ce projet, et nous avons décidé de nous concentrer sur les différents styles musicaux afin de fournir des informations telles que les instruments les plus utilisés, leurs sous-genres, leur histoire et les artistes emblématiques associés. Cette application avait pour but d'être utilisée sur un écran tactile situé dans le hall du pôle MMI.",
+      "AC": [
+          {
+              "code": "AC34.02",
+              "description": "Développer des dispositifs interactifs sophistiqués",
+              "justification": "Pour rendre notre application interactive, nous avons mis en place un système de sélection basé sur le déplacement d'un cercle. Si l'utilisateur souhaite voir les artistes emblématiques d'un genre, il lui suffit de déplacer le cercle dans la direction correspondante."
+          },
+          {
+              "code": "AC34.01",
+              "description": "Développer à l’aide d’un framework de développement côté client",
+              "justification": "Pour ce projet, nous avons utilisé le framework React, combiné à l'outil de bundling Vite pour optimiser le développement côté client."
+          }
+      ],
+      "Situation": "Objectif : Faire un projet sur le thème de la musique. Idée : Quiz lié à la musique.",
+      "tache": [
+          "Création du maquettage",
+          "Recherche des informations sur les styles musicaux",
+          "Trouver le moyen adéquat pour implémenter ces informations"
+      ],
+      "action": "Mon travail sur ce projet a consisté à développer le système de sélection par déplacement du cercle et à récupérer les différentes informations sur les styles musicaux. Au début, j'ai envisagé d'utiliser l'API de Wikipédia, mais au fur et à mesure que le projet avançait, je me suis rendu compte que cela serait compliqué, car les informations ne sont pas toujours situées au même endroit sur chaque page des styles, et la structure HTML des pages Wikipédia est assez archaïque. J'ai donc opté pour un fichier JSON dans lequel j'ai regroupé toutes les données, que j'ai ensuite affichées sur le site.",
+      "auto-eval": "J'ai renforcé mes compétences en React et en création d'interfaces interactives. Malgré les défis avec l'intégration de l'API Wikipédia, j'ai su m'adapter en utilisant un fichier JSON pour gérer les données. L'application aurait pu être plus esthétique, mais je suis globalement satisfait du résultat, bien que j'aurais pu anticiper les difficultés liées aux sources de données externes.",
+
+      "images": [
+          "./img/projet-dev-music-2.png",
+          "./img/projet-dev-music-3.png",
+          "./img/projet-dev-music-4.png",
+          "./img/projet-dev-music-5.png",
+          "./img/projet-dev-music-6.png"
+      ]
+  },
+  {
+      "id": 3,
+      "title": "Entrepreneuriat",
+      "description": "Le but de ce projet était de simuler la gestion en équipe de différentes parties d'une entreprise. Nous avons tous endossé le rôle de chef de projet, devant superviser des employés et définir les tâches prioritaires à développer en premier.",
+      "AC": [
+          {
+              "code": "AC35.01",
+              "description": "Piloter un produit, un service ou une équipe",
+              "justification": "Ce projet était axé sur la gestion de projet. Nous devions gérer nos équipes, attribuer des tâches et respecter des délais stricts. Cela nous a permis de développer nos compétences en communication et en organisation."
+          }
+      ],
+      "Situation": "",
+      "tache": ["Chaque membre de l'équipe devait terminer dans les temps toutes les tâches assignées pour compléter le produit final et le livrer dans les délais. Chaque jour de retard nous coûtait de l'argent. Il fallait également gérer les heures supplémentaires des employés ainsi que leurs éventuels retards ou absences."],
+      "action": "En tant que chef de projet, j'ai coordonné les efforts de l'équipe en attribuant les tâches en fonction du temps donné pour chaque tâche, en tenant compte des compétences spécifiques de chaque employé. Pour gérer les ressources humaines, j'ai surveillé les heures supplémentaires et les absences des employés, ajustant les plannings en conséquence pour minimiser les impacts sur le projet.",
+      "auto-eval": "Ce projet m'a permis de développer des compétences cruciales en gestion de projet, notamment en planification et organisation. Bien que nous n'ayons pas pu rendre le projet dans les temps, j'ai acquis une expérience précieuse dans la coordination des tâches et le respect des délais.",
+      "images": [
+          "./img/tableau.png"
+      ]
+  },
+
+  {
+      "id": 4,
+      "title": "La Brasserie",
+      "description": "Nous avons été mandatés par un client pour créer un site web, une application mobile, un clip vidéo, et organiser l'inauguration de l'ouverture de sa brasserie-restaurant. En concurrence avec d'autres équipes, notre objectif était de convaincre ce client potentiel de choisir notre entreprise.",
+      "AC": [
+          {
+              "code": "AC35.03",
+              "description": "Concevoir un projet d’entreprise innovante en définnissant le nom, l’identité, la forme juridique et le ton de la marque ",
+              "justification": "Nous avons créé l'identité d'une brasserie ainsi que son plan de communication. Nous avons également réfléchi aux manières de fidéliser les clients le plus efficacement possible en proposant des réductions à la réservation."
+          },
+          {
+              "code": "AC35.04",
+              "description": "Défendre un projet de manière convaincante",
+              "justification": "À l'issue de ce projet, nous avons réalisé une soutenance devant l'entièreté de la promotion. À ce moment-là, ce n'étaient plus des camarades de classe mais des clients que l'on devait convaincre."
+          }
+      ],
+      "Situation": "Nous faisions partie d'une équipe en concurrence avec d'autres, avec pour objectif de convaincre un client potentiel de choisir notre entreprise plutôt que nos concurrents. Nous avions une semaine pour préparer un projet convaincant à présenter au commanditaire.",
+      "tache": ["Présenter une maquette de site web et d'application mobile", "des affiches", "des cartes de vistes", "un scénario de clip et les détails sur l'inauguration de la brasserie."],
+      "action": "Durant ce projet, j'ai été en charge de m'occuper de la création des flyers et de l'affiche de la brasserie. J'ai participer à la planification des différentes tâches à réaliser pour le projet.",
+      "auto-eval": "Dans le cadre de ce projet, j'ai pu développer mes compétences en communication et en créativité. J'ai appris à travailler en équipe et à respecter des délais serrés. J'ai également appris à défendre un projet de manière convaincante devant un public.",
+      "images": [
+          "./img/Flyer-recto.png",
+          "./img/Flyer-verso.png",
+          "./img/Affiche.png"
+      ]
+  },
+  {
+      "id": 5,
+      "title": "Gestionnaire de mot de passe Laravel",
+      "description": "Dans ce projet, le but était simple : créer un gestionnaire de mots de passe avec la possibilité de créer des équipes ayant les droits de voir certains mots de passe.",
+      "AC": [
+          {
+              "code": "AC34.05",
+              "description": "Concevoir l’hébergement et le déploiement d’applications",
+              "justification": "Pendant ce projet, nous avons hébergé notre gestionnaire de mots de passe. Nous avons appris à héberger un site web de manière professionnelle, en suivant les bonnes pratiques du milieu."
+          }
+      ],
+      "Situation": "Le choix du projet a été décidé par l'ensemble de la classe. Il était l'un des plus importants de l'année, car à travers ce projet nous avons découvert Laravel.",
+      "tache": [
+          "1.Création de compte",
+          "2.Création de formulaire pour insérer un mot de passe en controlant les données envoyé",
+          "3.Création d'une équipe"
+      ],
+  
+      "auto-eval": "Ce projet m'a permis de développer des compétences sur le framework php Laravel et en hébergement",
+      "images": [
+          "./img/Laravel-1.png",
+          "./img/Laravel-2.png",
+          "./img/Laravel-3.png",
+          "./img/Laravel-4.png",
+          "./img/laravel-mark-red-type-black_w1280.png"
+      ]
+  }
+]
